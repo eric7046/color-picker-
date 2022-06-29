@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function ColorPicker() {
   const [color, setColor] = useState();
 
- const divStyle = {backgroundColor: color};
+ const divStyle = {backgroundColor: 'white'};
 
   return (
     <div style={divStyle}>
